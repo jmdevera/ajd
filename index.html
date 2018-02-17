@@ -1,64 +1,228 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="AJ Devera Portfolio">
-    <meta name="author" content="Martin Devera">
-    <link rel="icon" href="../../../../favicon.ico"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>AJ Devera: Artist</title>
+    <title>Martin Devera</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    
-    <!-- Custom styles for this template -->
-    <link href="ajd.css" rel="stylesheet">
-  </head>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Plugin CSS -->
+    <!--<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">-->
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Martin Devera</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
 
-    <main role="main" class="container">
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Martin Devera</h1>
+                <hr>
+                <p>Welcome to my website </p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">About me</a>
+            </div>
+        </div>
+    </header>
 
-      <div class="container">
-        <h1>AJ Devera</h1>
-        <p class="lead">Concept and Character Artist</p>
-      </div>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Hi there! </h2>
+                    <hr class="light">
+                    <p class="text-faded">I graduated in August 2017 from the University of Washington earning a Bachelor of Arts in Earth and Space Science and a minor in Computer Science and Software Engineering. I have a great interest in the environment, technology, and data. I worked as a Student Technology Assistant for the Communications Department at UW from May 2015 to June 2017. In September 2016 I earned Associate Level Certification as an AWS Solutions Architect. Below are some of the projects I've been working on.</p>
+                    <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button">Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div id="portfolio" class="container">
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+			
+			
+				<div class="col-lg-4 col-sm-6">
+                    <a href="http://students.washington.edu/jmdevera/FinalProject/start.php" class="portfolio-box" target = "blank">
+                        <img src="img/portfolio/thumbnails/4.jpg"  class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Web Development with PHP and D3.
+                                </div>
+                                <div class="project-name">
+                                    Uses PHP to store cookies, login, and data about a user's todo list. Todo list weights tasks with points based on due date, importance, and personal gratification of performing the task. Creates a data visualization of the points accumulated after completing tasks. Future work includes creating a game to spend the accumulated points.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				              
+				<div class="col-lg-4 col-sm-6">
+                    <a href="/portfolio/Goldfinch_Habitat_Devera.pdf" class="portfolio-box" target = "blank">
+                        <img src="img/portfolio/thumbnails/gis.png"  class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    GIS - Goldfinch Breeding Grounds in Oregon
+                                </div>
+                                <div class="project-name">
+                                   Used GIS to generate maps of the American Goldfinch's breeding grounds. Performed different analyses including boolean raster manipulations to find relationships and patterns such as proximity to highways, certain vegetation, and streams.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				
+				<div class="col-lg-4 col-sm-6">
+                    <a href="https://github.com/TheSims5/FinalProject" class="portfolio-box" target = "blank">
+                        <img src="img/portfolio/thumbnails/sim.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Computer Simulation of Epidemic Modeling in Python
+                                </div>
+                                <div class="project-name">
+                                    Led a team to research, design, develop, and present a computer simulation of an epidemic spreading across a school campus based on their class schedule and campus layout. Used agent-based modeling with discrete-space scheduled walkers. Developed in Python. 
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://jmdevera.github.io/tsunamis/" class="portfolio-box" target = "blank">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive"  alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Interactive Tsunami History Visualization
+                                </div>
+                                <div class="project-name">
+                                    Uses the D3.js framework to display data about tsunami's around the world. Has adjustable sliders to interactively select a subset of the data based on year, earthquake magnitude, and cause of tsunami.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://huskywushu.com" class="portfolio-box" target = "blank">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive"  alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Huky Wushu Team - Web Development
+                                </div>
+                                <div class="project-name">
+                                    Led a team to update the website for the Husky Wushu Team. Created a responsive, mobile friendly UI using Bootstrap. Used PHP to create contact messages in-site.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-      </div>
 
-    </main><!-- /.container -->
+				<div class="col-lg-4 col-sm-6">
+                    <a href="https://jmdevera.github.io/i467Studios" class="portfolio-box" target = "blank">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Web Development
+                                </div>
+                                <div class="project-name">
+                                    i467 Studios
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
+            </div>
+        </div>
+    </section>
+	
+	<!-- python pane
+	<iframe src="https://trinket.io/embed/python/b9b4074bb7" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Contact Me</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:jmdevera21@gmail.com">jmdevera21@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="\node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="/js/ajd.js"></script>    
-  </body>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <!--<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script> -->
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
 </html>

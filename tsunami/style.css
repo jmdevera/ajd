@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+body {
+	font: 12px sans-serif;
+}
+
+.container {
+	width: 80vw;
+	height: 80vh;
+}
+#options {
+    width: 15vw;
+	height: 80vh;
+}
+
+
+<style>  
+	.tooltip {     
+		position: absolute;   
+		width: 100px;   
+		height: 50px;   
+		pointer-events: none;   
+	}  
+</style>
